@@ -1,0 +1,22 @@
+\
+
+#ifndef MEASURE_H
+#define MEASURE_H
+
+
+class Measure
+{
+ private:
+  TimeSignature Time_Sig;
+  KeySignature Key_Sig;
+  Note* startNote;
+  Note* endNote;
+
+ public:
+  int beatsLeft;
+  bool isFull;
+  int add(Note* n); //returns beatsLeft
+  int addSplit(Note* n); //return beatsLeft in new measure.
+};
+#endif
+  

@@ -1,0 +1,3 @@
+/home/nishant/CS/Segue/build/CMakeFiles/edit_cache.dir
+/home/nishant/CS/Segue/build/CMakeFiles/rebuild_cache.dir
+/home/nishant/CS/Segue/build/CMakeFiles/Segue.dir
