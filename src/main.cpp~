@@ -1,9 +1,9 @@
 #include <iostream>
-
+#include "note.h"
 int main()
 {
-  std::cout << "Hello World" << endl;
-
+  Note n;
+  std::cout << "Hello World" << std::endl;
   return 0;
 }
 

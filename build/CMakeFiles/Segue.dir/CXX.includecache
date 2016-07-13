@@ -9,4 +9,26 @@
 /home/nishant/CS/Segue/src/main.cpp
 iostream
 -
+note.h
+/home/nishant/CS/Segue/src/note.h
+
+/home/nishant/CS/Segue/src/note.cpp
+note.h
+/home/nishant/CS/Segue/src/note.h
+string
+-
+iostream
+-
+
+/home/nishant/CS/Segue/src/note.h
+pitches.h
+/home/nishant/CS/Segue/src/pitches.h
+string
+-
+
+/home/nishant/CS/Segue/src/pitches.h
+string
+-
+map
+-
 

@@ -1,0 +1,28 @@
+#include "measure.h"
+
+
+
+Measure::Measure(TimeSignature T, KeySignature K)
+{
+  Time_Sig = T;
+  Key_Sig = K;
+  int beatsLeft = T.beats;
+  isFull = false;
+  startNote = NULL;
+  endNote = NULL;
+}
+int Measure::addHelp(Note* loc, Note* insert)
+{
+  if (loc == NULL)
+    loc = insert;
+  else
+    addHelp(loc->next; 
+int Measure::add(Note* n)
+{
+  if(!isFull)
+    {
+      if(startNote == NULL)
+	startNote = n;
+      else
+	{
+	  

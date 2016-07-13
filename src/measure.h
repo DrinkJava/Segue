@@ -16,7 +16,9 @@ class Measure
  public:
   int beatsLeft;
   bool isFull;
+  Measure(TimeSignature T, KeySignature K);
   int add(Note* n); //returns beatsLeft
+  int add(Note* loc, Note* insert);
   int addSplit(Note* n); //return beatsLeft in new measure.
 };
 #endif

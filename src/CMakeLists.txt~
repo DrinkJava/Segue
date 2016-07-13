@@ -1,3 +1,0 @@
-project("Segue")
-
-add_executable(Segue main.cpp)

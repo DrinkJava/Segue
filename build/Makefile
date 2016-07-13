@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Segue.dir/build.make CMakeFiles/Segue.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+note.o: note.cpp.o
+
+.PHONY : note.o
+
+# target to build an object file
+note.cpp.o:
+	$(MAKE) -f CMakeFiles/Segue.dir/build.make CMakeFiles/Segue.dir/note.cpp.o
+.PHONY : note.cpp.o
+
+note.i: note.cpp.i
+
+.PHONY : note.i
+
+# target to preprocess a source file
+note.cpp.i:
+	$(MAKE) -f CMakeFiles/Segue.dir/build.make CMakeFiles/Segue.dir/note.cpp.i
+.PHONY : note.cpp.i
+
+note.s: note.cpp.s
+
+.PHONY : note.s
+
+# target to generate assembly for a file
+note.cpp.s:
+	$(MAKE) -f CMakeFiles/Segue.dir/build.make CMakeFiles/Segue.dir/note.cpp.s
+.PHONY : note.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... note.o"
+	@echo "... note.i"
+	@echo "... note.s"
 .PHONY : help
 
 

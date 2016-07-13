@@ -1,7 +1,7 @@
-#include "pitches.h"
 #ifndef NOTE_H
 #define NOTE_H
-
+#include "pitches.h"
+#include <string>
 class Note
 {
  private:
@@ -10,9 +10,9 @@ class Note
 
  public:
   Note();
-  Note(unsigned int pitch);
   Note(unsigned int duration);
   Note(unsigned int pitch, unsigned int duration);
+  std::string toString() const;
 };
 
 #endif

@@ -1,18 +1,22 @@
-
-#include "pitches.h"
 #ifndef NOTE_H
 #define NOTE_H
-
+#include "pitches.h"
+#include <string>
 class Note
 {
- private:
+
+  
+ public:
   unsigned int pitch;
   unsigned int duration;
-
- public:
+  unsigned int measure;
+ 
+  Note* next;
+  Note* prev;
   Note();
   Note(unsigned int duration);
   Note(unsigned int pitch, unsigned int duration);
+  std::string toString() const;
 };
 
 #endif
